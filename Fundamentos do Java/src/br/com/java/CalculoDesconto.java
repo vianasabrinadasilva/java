@@ -15,7 +15,6 @@ public class CalculoDesconto {
 		System.out.print("% de Desconto: ");
 		desconto = teclado.nextDouble();
 		totalDesconto = total - ((total * desconto) / 100);
-		//saida
 		System.out.println("Total com Desconto: " + totalDesconto);
 		System.out.print("Valor Pago: ");
 		valorPago = teclado.nextDouble();
