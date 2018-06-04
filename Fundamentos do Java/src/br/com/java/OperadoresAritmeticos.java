@@ -21,7 +21,7 @@ public class OperadoresAritmeticos {
 		System.out.println("x / y = " + (x / y));
 		// Multiplicação
 		System.out.println("x * y = " + (x * y));
-		// Módulo
+		// Módulo..
 		System.out.println("x % y = " + (x % y));
 		//  Incremento x++ ( equivale  a x = x + 1)
 		x++;

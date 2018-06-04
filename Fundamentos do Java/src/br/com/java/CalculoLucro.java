@@ -14,7 +14,7 @@ public class CalculoLucro {
 		custo = teclado.nextDouble();
 		System.out.print("% do lucro: ");
 		lucro = teclado.nextDouble();
-		//processamento
+		//processamento..
 		venda = custo + ((custo * lucro) / 100);
 		// saida
 		System.out.println("Preço de venda: " + venda);
