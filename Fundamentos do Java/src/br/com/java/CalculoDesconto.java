@@ -5,19 +5,25 @@ import java.util.Scanner;
 public class CalculoDesconto {
 
 	public static void main(String[] args) {
-		double preço,desconto,total;
+		double totalDesconto,desconto,total,valorPago,troco;
 		Scanner teclado = new Scanner(System.in);
-		System.out.println("Desconto do Produto");
-		System.out.println("desconto % de preço = total");
+		System.out.println("PDV");
+		System.out.println("");
 		//entrada
-		System.out.print("Digite o preço = ");
-		preço = teclado.nextDouble();
-		System.out.println("Digite o Desconto% = ");
+		System.out.print("Total: ");
+		total = teclado.nextDouble();
+		System.out.print("% de Desconto: ");
 		desconto = teclado.nextDouble();
-		//processamento
-		total = (preço * desconto) / 100;
+		totalDesconto = total - ((total * desconto) / 100);
+		//proce
 		//saida
-		System.out.println(preço + "% de " + desconto + " = " + total);
+		System.out.println("Total com Desconto: " + totalDesconto);
+		System.out.print("Valor Pago: ");
+		valorPago = teclado.nextDouble();
+		troco = valorPago - totalDesconto;
+		System.out.println("Troco: " + troco);
+		
+			
 
 	}
 
