@@ -53,9 +53,14 @@ public class JoKenPo {
 		
 		}
 		
-		if ( 
-			
+		if (jogador == 1 && computador == 3 || jogador == 2 && computador == 1 || jogador == 2 && computador == 3 ) {
+			System.out.println("Jogador Venceu");
+		else if (computador == 1 && jogador == 3 || computador == 2 && jogador == 1 || computador == 2 && jogador == 3 ) {
+			System.out.println("Computador Venceu");
+		else 
 		}
+			
+			
 	}
 
 	static void Tesoura() {
