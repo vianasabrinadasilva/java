@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class JoKenPo {
 
 	public static void main(String[] args) {
-		int jogador, placar, player1, player2 = 0;
+		int jogador, placar = 0;
 		char opcao;
 		Scanner teclado = new Scanner(System.in);
 		do {
@@ -77,6 +77,8 @@ public class JoKenPo {
 			System.out.println("******EMPATE******");
 		}
 		
+		System.out.println("----------------------------");
+		System.out.println("¨¨¨¨¨¨PLACAR¨¨¨¨¨¨");
 		
 		System.out.print("Deseja jogar novamente(s/n)? ");
 		opcao = teclado.next().charAt(0);
