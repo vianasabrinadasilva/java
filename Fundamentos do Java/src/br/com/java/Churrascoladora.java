@@ -37,7 +37,7 @@ public class Churrascoladora {
 
 		// Saída
 		System.out.println("");
-		System.out.println("________________________________");
+		System.out.println("_____________________________________________________");
 		System.out.println("");
 		System.out.println("Lista de compras");
 		// Exibir quantidade e preço
@@ -46,7 +46,7 @@ public class Churrascoladora {
 				"Quantidade total de cerveja: " + totalCerveja + " latas" + " | " + "R$: " + totalCerveja * cerveja);
 		System.out.println("Quantidade total de refri: " + totalRefri + " latas" + " | " + "R$: " + totalRefri * refri);
 		System.out.println("");
-		System.out.println("__________________________________");
+		System.out.println("_____________________________________________________");
 		System.out.println("");
 		System.out.println("Valor total do churras: " + "R$: " + total);
 		System.out.println("Valor por pessoa: " + "R$: " + valorPessoa);
